@@ -23,20 +23,29 @@ in the loop you will need to call Read() to update the XBoxController object.
 
 <code> controller.Read()</code>
 
-other function
-<code>
-A() // returns true if A button is pressed
-B() // returns true if B button is pressed
-X() // returns true if X button is pressed
-Y() // returns true if Y button is pressed
+<h3> other function</h3>
 
-  // returns the x position for the right stick 
-  //between −32,768 to 32,767
-  short rightStickX();
+<code> A() </code>
+returns true if A button is pressed
+
+<code> B() </code>
+returns true if B button is pressed 
+
+<code> X() </code>
+returns true if X button is pressed 
+
+<code> Y() </code>
+returns true if Y button is pressed  
+
+
+<code> short rightStickX();</code>
+returns the x position for the right stick 
+between −32,768 to 32,767  
   
-  // returns the Y position for the right stick
-  //between −32,768 to 32,767
-	short rightStickY();
+  <code>short rightStickY();</code>
+  returns the Y position for the right stick
+  between −32,768 to 32,767
+	
 	
 	// returns the X position for the left stick
   //between −32,768 to 32,767
