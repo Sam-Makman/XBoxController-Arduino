@@ -25,16 +25,16 @@ in the loop you will need to call Read() to update the XBoxController object.
 
 <h3> other function</h3>
 
-<code> A() </code>
+<code> boolean A() </code>
 returns true if A button is pressed
 
-<code> B() </code>
+<code>boolean B() </code>
 returns true if B button is pressed 
 
-<code> X() </code>
+<code>boolean X() </code>
 returns true if X button is pressed 
 
-<code> Y() </code>
+<code>boolean Y() </code>
 returns true if Y button is pressed  
 
 
@@ -42,25 +42,28 @@ returns true if Y button is pressed
 returns the x position for the right stick 
 between −32,768 to 32,767  
   
-  <code>short rightStickY();</code>
-  returns the Y position for the right stick
-  between −32,768 to 32,767
+<code>short rightStickY();</code>
+returns the Y position for the right stick
+between −32,768 to 32,767
 	
 	
-	// returns the X position for the left stick
-  //between −32,768 to 32,767
-	short leftStickX();
+
+<code>short leftStickX();</code>
+returns the X position for the left stick
+between −32,768 to 32,767
 	
-	// returns the Y position for the left stick
-  //between −32,768 to 32,767
-	short leftStickY();
+
+<code>short leftStickY();</code>
+returns the Y position for the left stick
+between −32,768 to 32,767
 	
-	//returns value of right trigger 
-	//between 0 and 255
-	byte rightTrigger();
+
+<code>byte rightTrigger();</code>
+returns value of right trigger 
+between 0 and 255
 	
-	//returns value of left trigger 
-	//between 0 and 255 
-	byte leftTrigger();
+<code>byte leftTrigger();</code>
+returns value of left trigger 
+between 0 and 255 
 	
 	
